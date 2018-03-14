@@ -12,6 +12,7 @@ The files that comprise this project are:
 - env.py – Contains the class definitions for GlobalEnv and LocalEnv.
 - interpreter_main.py – (provided) Creates the ast tree and runs the interpreter.
 Some testing code is provided in interpreter_main. The interpreter module defines the following two functions:
+
 **eval_tree (tree)** Takes the AST tree object, evaluates and executes the nodes in the tree and returns a result, the expressed value of the program that was executed. The default return is 0.
 
 **eval_node (node, env)** Takes an ast Node object and an environment (GlobalEnv or LocalEnv) object. It returns both a numeric value and an environment object (GlobalEnv or LocalEnv).
